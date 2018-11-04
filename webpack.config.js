@@ -14,7 +14,8 @@ module.exports = {
   devServer: {
     contentBase: path.resolve(__dirname, 'public'),
     port: 9191,
-    open: 'google chrome'
+    open: 'google chrome',
+    historyApiFallback: true
   },
   module: {
     rules: [
