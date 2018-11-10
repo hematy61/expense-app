@@ -1,4 +1,5 @@
-
+// to prevent typos and easy catchable errors of action
+// types, we have defined action types as an object variable
 
 const TYPES = {
   ADD_EXPENSE: 'ADD_EXPENSE',
